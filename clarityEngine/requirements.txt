@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+google-generativeai
+google-cloud-documentai
+faiss-cpu
+sentence-transformers
+numpy
+python-dotenv
+tf-keras
