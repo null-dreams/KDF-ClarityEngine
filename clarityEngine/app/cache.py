@@ -1,0 +1,1 @@
+document_chunk_cache = {}
