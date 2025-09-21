@@ -30,7 +30,7 @@ This project serves as a powerful demonstration of a modern, multi-service archi
 | :--- | :--- | :--- |
 | **Frontend** | **React (Vite)**, **Tailwind CSS** | The user interface for uploading, viewing, and interacting with documents. |
 | **Web Backend** | **Node.js**, **Express**, Multer | Handles file uploads, user requests, and acts as a secure proxy to the AI engine. |
-| **AI Engine** | **Python**, **FastAPI**, **Gemini 1.5 Pro** | All heavy AI tasks: text extraction, summarization, and Q&A logic. |
+| **AI Engine** | **Python**, **FastAPI**, **Gemini 2.5 Pro** | All heavy AI tasks: text extraction, summarization, and Q&A logic. |
 
 ---
 
@@ -76,10 +76,10 @@ Follow these steps carefully to get the entire application running locally.
 3.  **Google Cloud Account & Project:**
     *   You must have a Google Cloud account with billing enabled.
     *   Create a new project in the Google Cloud Console.
-    *   Enable the **Document AI API** and the **Vertex AI API** (which grants access to Gemini models) for your project.
+    *   Enable the **Document AI API** and the **Gemini API keys** (which grants access to Gemini models) for your project.
 4.  **Authentication:**
     *   Create a service account in your Google Cloud project.
-    *   Grant it the "Document AI Administrator" and "Vertex AI User" roles.
+    *   Grant it the "Document AI Administrator" role.
     *   Download the JSON key file for this service account.
 
 ### Step 1: Environment Variables
